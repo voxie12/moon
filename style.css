@@ -4,7 +4,7 @@
 
 html,body {
     font-family: 'Ubuntu Mono', monospace;
-    font-size: 12px;
+    font-size: 16px;
     background: #1a1b26;
     position: absolute;
     top: 50%;
@@ -16,8 +16,8 @@ html,body {
 }
 
 img {
-    height: 135px;
-    width: 480px;
+    height: 230px;
+    width: 630px;
     object-fit: cover;
     border: 2px solid #a9b1d6;
     /* border-bottom: none; */
@@ -68,6 +68,7 @@ div.taskbar {
 } */
 
 .clock-box {
+    position: relative;
     color: #a9b1d6;
     background-color: #1a1b26;
     flex-direction: row;
@@ -83,7 +84,7 @@ a {
 
 input {
     background-color: #24283b;
-    font: 12px 'Ubuntu Mono', monospace;
+    font: 16px 'Ubuntu Mono', monospace;
     color: #a9b1d6;
     height: 100%;
     width: 100%;
