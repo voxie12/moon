@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ジェイ</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+      <div class="clock-box">
+
+        
+
+        <div id="clockbox"></div>
+
+        <script type="text/javascript">
+        function GetClock(){
+        var d=new Date();
+        var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+        if(nmin<=9) nmin="0"+nmin;
+        if(nsec<=9) nsec="0"+nsec;
+        
+        var clocktext=""+nhour+":"+nmin+":"+nsec+"";
+        document.getElementById('clockbox').innerHTML=clocktext;
+        }
+        
+        GetClock();
+        setInterval(GetClock,1000);
+        </script>
+        
+
+        <div id="datebox"></div>
+
+<script type="text/javascript">
+var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+
+var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+"";
+document.getElementById('datebox').innerHTML=clocktext;
+}
+
+GetClock();
+setInterval(GetClock,1000);
+</script>
+
+
+
+      </div>
+     
+      <img src="moon.jpg" alt="anime girl">
+
+
+        <nav>
+          
+            <ul>
+              <li><a href="https://github.com/">github</a></li>
+              <li><a href="https://wallhaven.cc/">wallhaven</a></li>
+              <li><a href="https://www.netflix.com/">netflix</a></li>
+              <li><a href="https://web.whatsapp.com/">whatsapp</a></li>
+            </ul>
+        
+            <ul>
+              <li><a href="https://anilist.co/home">anilist</a></li>
+              <li><a href="https://animepahe.org/">animepahe</a></li>
+              <li><a href="https://animixplay.to/">animixplay</a></li>
+              <li><a href="https://subsplease.org/">subsplease</a></li>
+            </ul>
+        
+            <ul>
+              <li><a href="https://www.reddit.com/r/unixporn/">r/unixporn</a></li>
+              <li><a href="https://www.reddit.com/r/Animemes/">r/animeme</a></li>
+              <li><a href="https://www.reddit.com/r/archlinux/">r/archlinux</a></li>
+              <li><a href="https://www.reddit.com/r/anime_irl/">r/anime_irl</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="https://www.reddit.com/r/unixporn/">r/unixporn</a></li>
+              <li><a href="https://www.reddit.com/r/Animemes/">r/animeme</a></li>
+              <li><a href="https://www.reddit.com/r/archlinux/">r/archlinux</a></li>
+              <li><a href="https://www.reddit.com/r/anime_irl/">r/anime_irl</a></li>
+            </ul>
+
+            
+
+          </nav>
+          <form action="https://duckduckgo.com/" method="GET" target="_blank">
+            <input autofocus
+                   name="q"
+                   type="search"
+                   placeholder="search..."
+                    tabindex="1">
+          </form>
+    </body>
+</html>
