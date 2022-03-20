@@ -5,7 +5,7 @@
 html,body {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 16px;
-    background: #1a1b26;
+    background: #181825;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -27,7 +27,7 @@ img {
 
 nav {
     color: #a9b1d6;
-    background-color: #24283b;
+    background-color: #13131e;
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin-top: 0px;
@@ -51,7 +51,7 @@ ul {
 }
 
 /* div.user {
-    background-color: #24283b;
+    background-color: #262434;
     color: white;
     margin-top: 0px;
     padding-left: 0px;
@@ -62,7 +62,7 @@ ul {
 
 div.taskbar {
     color: #a9b1d6;
-    background-color: #24283b;
+    background-color: #262434;
     border: 1px solid #a9b1d6;
     padding: 3px;   
 } */
@@ -70,7 +70,7 @@ div.taskbar {
 .clock-box {
     position: relative;
     color: #a9b1d6;
-    background-color: #1a1b26;
+    background-color: #181825;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
@@ -83,7 +83,7 @@ a {
 }
 
 input {
-    background-color: #24283b;
+    background-color: #13131e;
     font: 16px 'Ubuntu Mono', monospace;
     color: #a9b1d6;
     height: 100%;
